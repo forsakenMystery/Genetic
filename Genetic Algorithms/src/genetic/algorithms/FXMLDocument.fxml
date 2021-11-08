@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="genetic.algorithms.FXMLDocumentController">
+   <children>
+      <Button fx:id="N_QUEEN" alignment="CENTER" mnemonicParsing="false" onMouseClicked="#nQueenClicked" text="Genetic N-Queen">
+         <font>
+            <Font name="Felix Titling" size="20.0" />
+         </font>
+         <VBox.margin>
+            <Insets bottom="15.0" top="15.0" />
+         </VBox.margin>
+      </Button>
+      <Button fx:id="SLIDING" mnemonicParsing="false" onMouseClicked="#slidingClicked" text="GENETIC SLIDING PUZZLE">
+         <VBox.margin>
+            <Insets bottom="15.0" top="15.0" />
+         </VBox.margin>
+         <font>
+            <Font name="Felix Titling" size="20.0" />
+         </font>
+      </Button>
+      <Button disable="true" mnemonicParsing="false" text="Undecided">
+         <font>
+            <Font name="Felix Titling" size="20.0" />
+         </font>
+         <VBox.margin>
+            <Insets bottom="15.0" top="15.0" />
+         </VBox.margin>
+      </Button>
+      <Button fx:id="exit" mnemonicParsing="false" onMouseClicked="#exitClicked" text="Exit">
+         <font>
+            <Font name="Felix Titling" size="20.0" />
+         </font>
+         <VBox.margin>
+            <Insets bottom="15.0" top="15.0" />
+         </VBox.margin>
+      </Button>
+   </children>
+</VBox>
